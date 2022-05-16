@@ -1,0 +1,46 @@
+.rdc {
+    /* margin-left: -15px; */
+    height: auto;
+    width: auto;
+    border: 1px solid #00acee;
+    background-color: #00abeeb0;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.main-container{
+    height:auto;
+    padding:15px 20px;
+}
+
+.dropdown{
+    display:inline-block
+}
+
+::-webkit-datetime-edit { padding: 4px; }
+
+.date{
+    position: relative;
+    top:2px;
+}
+.selectpicker {
+    height: 60px;
+    width: 90%;
+    margin-left: 5%;
+}
+.btn-new {
+    background-color: rgb(9, 18, 27);
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.inner-container{
+    padding: 20px;
+}
